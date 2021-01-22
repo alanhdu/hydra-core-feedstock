@@ -18,10 +18,10 @@ requirements:
   build:
     - antlr ==4.8
   host:
-    - python >=3.6,<3.9
+    - python >=3.6,<3.10
     - pip
   run:
-    - python >=3.6,<3.9
+    - python >=3.6,<3.10
     - omegaconf >=2.0.2
     - antlr-python-runtime ==4.8
     - importlib_resources
